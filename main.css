@@ -1,0 +1,75 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/css?family=Signika:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  color: #222222;
+  text-align: center;
+  font-weight: 300;
+}
+
+header {
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 50%;
+  border-bottom: 1px solid gray;
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.3em;
+}
+
+main {
+  font-size: 1.2em;
+}
+
+main strong {
+  font-weight: 700;
+}
+
+section.geo-context {
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px;
+  margin-bottom: 100px;
+  border: 1px dashed gray;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+code {
+  display: block;
+  font-size: 1.4em;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  padding: 40px;
+  margin: 40px 100px 40px 100px;
+  border: 2px solid #222222;
+  background-color: #eeeeee;
+}
+
+@media (max-width: 736px) {
+  header {
+    width: 80%;
+    font-size: 2em;
+    padding: 0;
+  }
+
+  section.geo-context {
+    width: 80%;
+    padding: 0;
+    border: 0;
+  }
+
+  code {
+    margin: 20px;
+    font-size: 1.2em;
+  }
+}
